@@ -1,0 +1,79 @@
+body{
+	margin: 0px auto;
+	padding-top: 220px;
+	z-index: 1000;
+}
+
+/*#airtory_contentContainer{
+	margin-left: auto;
+	margin-right: auto;
+}*/
+
+#airtory_contentContainer{
+	max-width: 1000px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;	
+}
+
+#airtory_vidDiv{
+	width: 390px;
+	height: 220px;	
+	position: absolute;
+	top: 0px;
+	right:0px;
+	left: 0px;
+	margin: auto;
+	overflow: hidden;
+}
+
+#airtory_vid{
+	height:100%;	
+	position: absolute;
+	top: 0px;
+	right:0px;
+	left: 0px;
+	margin: auto;
+}
+
+#airtory_playimage{
+	width:30px;
+	height:30px;
+	position: absolute;
+	top: 180px;
+	display: none;
+	z-index: 2;
+}
+
+#airtory_pauseimage{
+	width:30px;
+	height:30px;
+	position: absolute;
+	top: 180px;
+	display: inline;
+	z-index: 2;
+}
+
+#airtory_vid_bg{
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -100;
+    cursor: pointer;	
+    filter: blur(10px);
+}
+
+#transparentImg{
+	position: fixed;
+    z-index: -1;
+    margin: 0px auto;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
